@@ -37,7 +37,7 @@ export const plants: Plant[] = [
     careInstructions: 'Water well after planting. Allow foliage to die back naturally after blooming.',
     plantingInstructions: 'Plant bulbs 4-6 inches deep in fall for spring blooms.',
     price: 8.99,
-    image: 'https://images.unsplash.com/photo-1520614233149-f7a2c1ee7f68?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1619974612677-5e1ed30d12ff?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Spring',
     stockStatus: 'In Stock'
   },
@@ -78,7 +78,7 @@ export const plants: Plant[] = [
     careInstructions: 'Regular pruning encourages bushier growth. Keep soil consistently moist.',
     plantingInstructions: 'Plant in rich, well-draining soil in full sun.',
     price: 3.99,
-    image: 'https://images.unsplash.com/photo-1618375531912-867984bdfd87?auto=format&fit=crop&q=80&w=800',
+    image: 'https://plus.unsplash.com/premium_photo-1693266635681-aeec6ec5e9a0?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Summer',
     stockStatus: 'In Stock'
   },
@@ -106,7 +106,7 @@ export const plants: Plant[] = [
     careInstructions: 'Regular watering and harvesting encourages continued production.',
     plantingInstructions: 'Plant 4-6 weeks before first frost.',
     price: 4.49,
-    image: 'https://images.unsplash.com/photo-1515872474884-c6cc011b5a1b?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1708661073403-65a5c1fc001b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Fall',
     stockStatus: 'In Stock'
   },
@@ -119,7 +119,7 @@ export const plants: Plant[] = [
     careInstructions: 'Mulch well for winter protection. Remove flower stalks in spring.',
     plantingInstructions: 'Plant cloves 4-6 inches apart in fall.',
     price: 6.99,
-    image: 'https://images.unsplash.com/photo-1615477550927-6ec8445fcf2d?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1661760194787-1f4d523f2eec?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Fall',
     stockStatus: 'Low Stock'
   },
@@ -132,7 +132,7 @@ export const plants: Plant[] = [
     careInstructions: 'Pinch back growth until mid-summer for bushier plants.',
     plantingInstructions: 'Plant in spring or early fall for best results.',
     price: 7.99,
-    image: 'https://images.unsplash.com/photo-1605048588829-0f6aa8bd2271?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a?q=80&w=2448&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Fall',
     stockStatus: 'In Stock'
   },
