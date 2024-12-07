@@ -22,7 +22,7 @@ export function Cart() {
               />
               <div className="flex-1">
                 <h3 className="text-xl font-semibold text-white">{item.name}</h3>
-                <p className="text-gray-400">${item.price.toFixed(2)}</p>
+                <p className="text-gray-400">₹{item.price.toFixed(2)}</p>
               </div>
               <div className="flex items-center gap-4">
                 <select
@@ -49,7 +49,7 @@ export function Cart() {
             <div className="flex justify-between items-center mb-4">
               <span className="text-white">Total:</span>
               <span className="text-2xl font-bold text-green-400">
-                ${total.toFixed(2)}
+              ₹{total.toFixed(2)}
               </span>
             </div>
             <button className="w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg">

@@ -102,8 +102,10 @@ export function ProductDetail() {
             <ShoppingCart className="h-5 w-5" />
             <span>Add to Cart</span>
           </button>
+          <div className="bg-customDarkBlue p-400 relative h-64 w-100">
+            <p className="text-gray-100 text-2xl mb-2 font-bold mt-5">Pesticides : <br/><span className='text-base font-medium'>{plant.pesticideDescription}</span></p>
+          </div>
         </div>
-
         <div className="space-y-6">
           <div className="bg-gray-800 p-6 rounded-lg">
             <div className="flex items-center space-x-2 mb-4">

@@ -13,7 +13,8 @@ export const plants: Plant[] = [
     price: 494.18,
     image: 'https://images.unsplash.com/photo-1592841200221-a6898f307baa?auto=format&fit=crop&q=80&w=800',
     season: 'Spring',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Neem Oil - Effective against aphids, whiteflies, and spider mites commonly found on tomato plants."
   },
   {
     id: '2',
@@ -26,7 +27,8 @@ export const plants: Plant[] = [
     price: 329.92,
     image: 'https://images.unsplash.com/photo-1447175008436-054170c2e979?auto=format&fit=crop&q=80&w=800',
     season: 'Spring',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Diatomaceous Earth - Protects young carrots from root maggots and other soil-dwelling pests."
   },
   {
     id: '3',
@@ -39,7 +41,8 @@ export const plants: Plant[] = [
     price: 741.68,
     image: 'https://images.unsplash.com/photo-1619974612677-5e1ed30d12ff?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Spring',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Fungicide (Captan) - Prevents fungal infections and bulb rot in tulip bulbs."
   },
   {
     id: '4',
@@ -52,7 +55,8 @@ export const plants: Plant[] = [
     price: 34.99,
     image: 'https://images.unsplash.com/photo-1522748906645-95d8adfd52c7?auto=format&fit=crop&q=80&w=800',
     season: 'Spring',
-    stockStatus: 'Low Stock'
+    stockStatus: 'Low Stock',
+    pesticideDescription: "Dormant Oil - Controls overwintering insects like scale, aphids, and mites on cherry trees."
   },
 
   // Summer Plants
@@ -67,7 +71,8 @@ export const plants: Plant[] = [
     price: 2887.67,
     image: 'https://images.unsplash.com/photo-1513530176992-0cf39c4cbed4?auto=format&fit=crop&q=80&w=800',
     season: 'Summer',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Insecticidal Soap - Targets aphids, thrips, and whiteflies that frequently attack bell peppers."
   },
   {
     id: '6',
@@ -80,7 +85,8 @@ export const plants: Plant[] = [
     price: 412.46,
     image: 'https://plus.unsplash.com/premium_photo-1693266635681-aeec6ec5e9a0?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Summer',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Insecticidal Soap - Ideal for controlling soft-bodied pests like aphids and mealybugs on basil."
   },
   {
     id: '7',
@@ -93,7 +99,8 @@ export const plants: Plant[] = [
     price: 329.92,
     image: 'https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&q=80&w=800',
     season: 'Summer',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Bt (Bacillus thuringiensis) - Effective against caterpillars and moth larvae that can harm young sunflowers."
   },
 
   // Fall Plants
@@ -108,7 +115,8 @@ export const plants: Plant[] = [
     price: 247.17,
     image: 'https://images.unsplash.com/photo-1708661073403-65a5c1fc001b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Fall',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Neem Oil - Controls cabbage worms, aphids, and flea beetles that commonly infest kale."
   },
   {
     id: '9',
@@ -121,7 +129,8 @@ export const plants: Plant[] = [
     price: 370.13,
     image: 'https://images.unsplash.com/photo-1661760194787-1f4d523f2eec?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Fall',
-    stockStatus: 'Low Stock'
+    stockStatus: 'Low Stock',
+    pesticideDescription: "Sulfur Dust - Prevents fungal diseases and deters mites on garlic bulbs."
   },
   {
     id: '10',
@@ -134,7 +143,8 @@ export const plants: Plant[] = [
     price: 576.41,
     image: 'https://images.unsplash.com/photo-1503149779833-1de50ebe5f8a?q=80&w=2448&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Fall',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Pyrethrin Spray - Effective against aphids, thrips, and spider mites found on chrysanthemums."
   },
 
   // Additional plants...
@@ -149,7 +159,8 @@ export const plants: Plant[] = [
     price: 659.17,
     image: 'https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&q=80&w=800',
     season: 'Spring',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Horticultural Oil - Repels spider mites and whiteflies on rosemary."
   },
   {
     id: '12',
@@ -162,7 +173,8 @@ export const plants: Plant[] = [
     price: 494.18,
     image: 'https://images.unsplash.com/photo-1604977042946-1eecc30f269e?auto=format&fit=crop&q=80&w=800',
     season: 'Summer',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Neem Oil - Targets cucumber beetles, aphids, and spider mites."
   },
   ,
   {
@@ -176,7 +188,8 @@ export const plants: Plant[] = [
     price: 24.99,
     image: 'https://images.unsplash.com/photo-1503040421714-b569d90342cb?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Spring',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Surround WP (Kaolin Clay) - Protects young apple trees from codling moths and aphids."
   },
   {
     id: '14',
@@ -189,7 +202,8 @@ export const plants: Plant[] = [
     price: 29.99,
     image: 'https://plus.unsplash.com/premium_photo-1730132431641-55e5d4181d96?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Summer',
-    stockStatus: 'Low Stock'
+    stockStatus: 'Low Stock',
+    pesticideDescription: "Horticultural Oil - Controls scale insects, aphids, and citrus leaf miners on orange trees."
   },
   {
     id: '15',
@@ -202,7 +216,8 @@ export const plants: Plant[] = [
     price: 9.99,
     image: 'https://images.unsplash.com/photo-1519180392711-496e450edf6a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     season: 'Spring',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Spinosad - Effective against thrips, caterpillars, and strawberry root weevils."
   },
   {
     id: '35',
@@ -215,6 +230,7 @@ export const plants: Plant[] = [
     price: 370.13,
     image: 'https://images.unsplash.com/photo-1457089328109-e5d9bd499191?auto=format&fit=crop&q=80&w=800',
     season: 'Winter',
-    stockStatus: 'In Stock'
+    stockStatus: 'In Stock',
+    pesticideDescription: "Insecticidal Soap - Targets aphids and whiteflies that occasionally affect winter pansies."
   }
 ];
