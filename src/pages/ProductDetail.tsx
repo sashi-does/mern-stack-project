@@ -83,7 +83,7 @@ export function ProductDetail() {
           <h1 className="text-3xl font-bold text-white mb-4">{plant.name}</h1>
           <div className="flex items-center justify-between mb-6">
             <span className="text-2xl text-green-400 font-bold">
-              ${plant.price.toFixed(2)}
+              ₹{plant.price}
             </span>
             <span className={`px-3 py-1 rounded-full text-sm ${
               plant.stockStatus === 'In Stock'

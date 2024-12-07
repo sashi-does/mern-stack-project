@@ -19,7 +19,7 @@ export function ProductCard({ plant }: ProductCardProps) {
         <h3 className="text-xl font-semibold text-white mb-2">{plant.name}</h3>
         <p className="text-gray-400 mb-2">{plant.description}</p>
         <div className="flex justify-between items-center">
-          <span className="text-green-400 font-bold">${plant.price.toFixed(2)}</span>
+          <span className="text-green-400 font-bold">₹{plant.price}</span>
           <span className={`px-2 py-1 rounded-full text-sm ${
             plant.stockStatus === 'In Stock'
               ? 'bg-green-500/20 text-green-400'
